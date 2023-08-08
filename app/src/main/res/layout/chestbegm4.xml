@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320sp"
+    android:layout_height="475sp"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="end"
+        android:background="@drawable/closedialog"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:paddingBottom="5sp"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/chestbegm4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <View
+                    style="@style/Divider"/>
+                <TextView
+                    android:id="@+id/HLR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hanginglegraise"
+                    android:textColor="#9F000000"
+                    android:textStyle="bold"
+                    android:padding="15sp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

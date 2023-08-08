@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".armsintf">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="1349dp"
+            android:layout_height="181dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/armsintf" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time and NO. of Workouts"
+            android:drawableLeft="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:paddingLeft="50sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="12sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_drag_handle_24"
+            android:padding="10sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="Cable Curls" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_drag_handle_24"
+            android:padding="10sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Preacher Curls" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_drag_handle_24"
+            android:padding="10sp"
+            android:textSize="20dp"
+            android:text="EZ Bar Curls" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_drag_handle_24"
+            android:padding="10sp"
+            android:text="Triceps PullDown" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_drag_handle_24"
+            android:padding="10sp"
+            android:text="Skull Crushers" />
+
+        <View style="@style/Divider"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

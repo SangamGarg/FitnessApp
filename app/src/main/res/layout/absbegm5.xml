@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320sp"
+    android:layout_height="475sp"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="end"
+        android:background="@drawable/closedialog"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:paddingBottom="5sp"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/absbegm5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <View
+                    style="@style/Divider"/>
+                <TextView
+                    android:id="@+id/HLR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Follow these form cues to learn how to do the Russian twist more safely. Once you've read the step-by-step directions, follow along for some higher-level tips from Samuel to dive deeper into the exercise.
+
+●Sit down on the floor or on a mat, keeping your feet on the ground. Your heels should stay on the floor, but your toes can be off the ground. Squeeze your glutes for stability.
+
+●Lean back, forming a right angle from your torso relative to your thigh.
+
+●Raise your arms out in front of you. Look up at your hands (and the weight, once you progress to working with a load)—you'll keep your gaze trained there throughout the movement.
+
+●Rotate your torso from one side to the other, pausing for a beat in the middle position between each rep. Move slowly, and keep your eyes on the weight. Keep the load out as far as possible to keep the lever long to challenge your abs. Only work within you range of motion; once your hips and knees begin to shift, you've gone too far.
+
+●Work for time or reps."
+                    android:textColor="#9F000000"
+                    android:textStyle="bold"
+                    android:padding="15sp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

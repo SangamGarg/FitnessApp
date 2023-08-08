@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320sp"
+    android:layout_height="475sp"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="end"
+        android:background="@drawable/closedialog"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:paddingBottom="5sp"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/absbegm2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <View
+                    style="@style/Divider"/>
+
+                <TextView
+                    android:id="@+id/HLR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15sp"
+                    android:text="Follow these form cues to learn how to do a perfect plank. Once you've read the step-by-step directions, follow along for some higher-level tips from Samuel to dive deeper into the exercise.
+
+●Get down on the ground. Stack your elbows directly beneath your shoulders and extend your legs. Rest your weight on your elbows and your toes.
+
+●Squeeze your glutes and core to create full-body tension. Think about pulling your belly button into your spine.
+
+●Contract your low back, lats, and rhomboids. Your back should form a straight line; don't let your pelvis dip down or your butt to rise up.
+
+●Face your gaze face down, which keeps your neck in a neutral position."
+                    android:textColor="#9F000000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320sp"
+    android:layout_height="475sp"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="end"
+        android:background="@drawable/closedialog"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:paddingBottom="5sp"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/absbegm3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <View
+                    style="@style/Divider"/>
+                <TextView
+                    android:id="@+id/HLR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lie flat on your back with your knees bent at a 90-degree angle. Place your hands on either side of your head. Push your lower back into the floor as you lift your shoulders a few inches off the floor – make sure your lower back stays in contact with the ground at all times. Tense your abs hard at the top point of the movement, then return under control to the start position."
+                    android:textColor="#9F000000"
+                    android:textStyle="bold"
+                    android:padding="15sp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
